@@ -1,0 +1,119 @@
+
+body{
+    background: #343434;
+}
+
+.btnTop{
+    width: 60px;
+    position: relative;
+    left: 1180px;
+    bottom: 20px;
+    opacity: 0.6;
+    transition: 0.5s;
+    
+}
+.btnTop:hover{
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+
+.mainItem{
+    width: 217px;
+    height: 300px;
+    border: 1px solid #EEEEEE;
+    padding: 20px;
+    margin: 40px 0px;
+    position: relative;
+}
+.mainItem:hover{
+    background-color: #999;
+    transition: 1s;
+    border: none;
+}
+
+
+
+
+
+.item{
+    margin: 0px 0px 15px 0;
+    transition: 1s;
+}
+.mainItem:hover>.item{
+    margin: 0px;
+    transition: 1s;
+}
+
+.item img{
+    transition: 1s;
+    width: 155px;
+    height: 198px;
+}
+.mainItem:hover>.item img{
+    transition: 1s;
+    width: 135px;
+    height: 178px;
+}
+
+.mainItem p{
+    font-size: 11px;
+    color: #EEEEEE;
+}
+
+.love{
+    
+    width: 30px;
+    opacity: 0;
+    transition: 1s;
+}
+.mainItem:hover>.love{
+    margin-top: 10px;
+    opacity: 1;
+    transition: 1s;
+}
+
+
+/*----------*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+    margin: 0px 150px;
+}
+
+
+
+.grid-item {
+  
+  text-align: center;
+}
+
+@media screen and (max-width:1100px) {
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+    margin: 0px 50px;
+}
+}
+@media screen and (max-width:750px) {
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+    margin: 0px 30px;
+}
+}
+
+/*----------*/
+
+.BtnMore{
+    margin-bottom: 70px;
+}
+
+
+
+    
+
+/*----------*//*----------*//*----------*//*----------*//*----------*//*----------*//*----------*//*----------*/
+    
+
